@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+ #re	{
+	width:150px;
+	height:50px;
+	background:red;
+	color:white;
+	font-size:28px;
+	padding:2px;
+	}
+
+#bl	{
+	width:150px;
+	height:50px;
+	background:blue;
+	color:white;
+	font-size:28px;
+	padding:2px;
+	}
+
+#or	{
+	width:150px;
+	height:50px;
+	background:orange;
+	color:navy;
+	font-size:28px;
+	padding:2px;
+	}
+
+#container{
+	width:450px;
+	height:280px;
+	border:2px solid pink;
+	position:absolute;
+	left:460px;
+	top:140px;
+	background:black;
+	box-shadow:15px 15px 15px yellow;
+	color:lightgreen;
+	border-radius:20px 40px;
+	}
+
+
+</style>
+
+<script>
+function dored()
+{
+ document.bgColor="red";
+}
+
+function doblue()
+{
+ document.bgColor="blue";
+}
+
+function doOrange()
+{
+ document.bgColor="orange";
+}
+</script>
+
+</head>
+
+<body>
+<div id="container">
+<center>
+<h2> Click to get color </h2>
+<input type="button" id="re" name="b1" value="red" onClick="dored()"> 
+<p>
+<input type="button" id="bl" name="b2" value="blue" onClick="doblue()"> 
+<p>
+<input type="button" id="or" name="b3" value="orange" onClick="doOrange()"> 
+<p>
+</center>
+</div>
+</body>
+</html>
